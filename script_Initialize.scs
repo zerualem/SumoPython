@@ -1,0 +1,132 @@
+# path "C:/Users/zerualem/AppData/Local/Dynamita/Sumo16/.tmp/a0gpj4nx.mks/";
+mode dynamic;
+#plantwide parameters
+#global model
+set Sumo__Plant__Sumo2__muPAO 0;
+set Sumo__Plant__Sumo2__muPAO_lim 0;
+set Sumo__Plant__Sumo2__bPAO 0;
+set Sumo__Plant__Sumo2__KPO4_lim_AS 1E-06;
+set Sumo__Plant__Sumo2__muAOB 1.1;
+set Sumo__Plant__Sumo2__bAOB 0.15;
+set Sumo__Plant__Sumo2__KO2_AOB_sidestream 0.2;
+set Sumo__Plant__Sumo2__muAMX 0.052;
+set Sumo__Plant__Sumo2__bAMX 0.0026;
+set Sumo__Plant__Sumo2__KNHx_AMX_AS 1;
+# id#1: GranularSBR
+# parameters Reactor settings
+set Sumo__Plant__GranularSBR__Aavg 0.0989;
+set Sumo__Plant__GranularSBR__hmax 4.55;
+set Sumo__Plant__GranularSBR__L_Vmax 0.6;
+set Sumo__Plant__GranularSBR__L_V_0 0.225;
+set Sumo__Plant__GranularSBR__SO2_setp 0.5;
+# parameters SBR operation
+set Sumo__Plant__GranularSBR__tcycle 5.817;
+set Sumo__Plant__GranularSBR__treact 5.667;
+set Sumo__Plant__GranularSBR__tsettle 0.083;
+set Sumo__Plant__GranularSBR__tdecant 0.067;
+set Sumo__Plant__GranularSBR__twaste 0;
+set Sumo__Plant__GranularSBR__Vdecant 0.225;
+set Sumo__Plant__GranularSBR__XTSS_decant_target 1;
+set Sumo__Plant__GranularSBR__XTSS_sludge_target 2000;
+# parameters Mass transfer in biofilm
+# parameters Biofilm and biofilm carrier parameters
+set Sumo__Plant__GranularSBR__Vgranules 0.009;
+set Sumo__Plant__GranularSBR__zF 0.001;
+# parameters Aeration settings
+set Sumo__Plant__GranularSBR__KP_SO2 60000;
+set Sumo__Plant__GranularSBR__KD_SO2 -100;
+# parameters Aeration controller initialization
+# parameters Initial concentrations
+set Sumo__Plant__GranularSBR__SVFA_0 0.01 0.01 0.01 0.01 0.01 0.01;
+set Sumo__Plant__GranularSBR__SB_0 1 1 1 1 1 1;
+set Sumo__Plant__GranularSBR__SMEOL_0 1E-50 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__CB_0 0.01 0.01 0.01 0.01 0.01 0.01;
+set Sumo__Plant__GranularSBR__XB_0 14 40 40 40 40 40;set Sumo__Plant__GranularSBR__SU_0 7 7 7 7 7 7;
+set Sumo__Plant__GranularSBR__CU_0 0.01 0.01 0.01 0.01 0.01 0.01;
+set Sumo__Plant__GranularSBR__XU_0 100 7000 7000 7000 7000 7000;
+set Sumo__Plant__GranularSBR__XPHA_0 1E-05 1E-05 1E-05 1E-05 1E-05 1E-05;
+set Sumo__Plant__GranularSBR__XE_0 50 70000 90000 80000 80000 80000;
+set Sumo__Plant__GranularSBR__XE_ana_0 0.1 0.01 0.01 0.01 0.01 0.01;
+set Sumo__Plant__GranularSBR__XOHO_0 100 40000 5000 2000 1900 1800;
+set Sumo__Plant__GranularSBR__XPAO_0 0 0 0 0 0 0;
+set Sumo__Plant__GranularSBR__XMEOLO_0 0 0 0 0 0 0;
+set Sumo__Plant__GranularSBR__XAOB_0 33 9000 1000 100 100 100;
+set Sumo__Plant__GranularSBR__XNOB_0 20 1200 200 50 50 50;
+set Sumo__Plant__GranularSBR__XAMX_0 1 6000 30000 30000 30000 30000;
+set Sumo__Plant__GranularSBR__XAMETO_0 0 0 0 0 0 0;
+set Sumo__Plant__GranularSBR__XHMETO_0 0 0 0 0 0 0;
+set Sumo__Plant__GranularSBR__SNHx_0 1 1 1 1 1 1;
+set Sumo__Plant__GranularSBR__SNO2_0 0.1 0.1 0.1 0.1 0.1 0.1;
+set Sumo__Plant__GranularSBR__SNO3_0 1 1 1 1 1 1;
+set Sumo__Plant__GranularSBR__SN2_0 18 18 18 18 18 18;
+set Sumo__Plant__GranularSBR__SN_B_0 0.5 1 1 1 1 1;
+set Sumo__Plant__GranularSBR__XN_B_0 1 2 2 2 2 2;
+set Sumo__Plant__GranularSBR__XN_U_0 10 10 10 10 10 10;
+set Sumo__Plant__GranularSBR__SPO4_0 0.5 2 2 2 2 2;
+set Sumo__Plant__GranularSBR__XPP_LO_0 0.01 0.01 0.01 0.01 0.01 0.01;
+set Sumo__Plant__GranularSBR__XPP_HI_0 0.01 0.1 0.1 0.1 0.1 0.1;
+set Sumo__Plant__GranularSBR__SP_B_0 0.01 0.03 0.03 0.03 0.03 0.03;
+set Sumo__Plant__GranularSBR__XP_B_0 0.5 0.5 0.5 0.5 0.5 0.5;
+set Sumo__Plant__GranularSBR__XP_U_0 2 1 1 1 1 1;
+set Sumo__Plant__GranularSBR__SO2_0 0 0 0 0 0 0;
+set Sumo__Plant__GranularSBR__SCH4_0 0.01 2.5 2.5 2.5 2.5 2.5;
+set Sumo__Plant__GranularSBR__SH2_0 0.01 0.01 0.01 0.01 0.01 0.01;
+set Sumo__Plant__GranularSBR__SCO2_0 270 450 450 450 450 450;
+set Sumo__Plant__GranularSBR__XINORG_0 100 10000 10000 550 50 50;
+set Sumo__Plant__GranularSBR__SCAT_0 35 130 130 130 130 130;
+set Sumo__Plant__GranularSBR__SAN_0 150 300 300 300 300 300;
+set Sumo__Plant__GranularSBR__SCa_0 150 150 150 150 150 150;
+set Sumo__Plant__GranularSBR__SMg_0 15 15 15 15 15 15;
+set Sumo__Plant__GranularSBR__SK_0 15 16 16 16 16 16;
+set Sumo__Plant__GranularSBR__SFe2_0 1E-50 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__XHFO_H_0 1E-50 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__XHFO_L_0 1E-50 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__XHFO_old_0 1E-50 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__XHFO_H_P_0 1E-50 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__XHFO_L_P_0 1E-50 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__XHFO_H_P_old_0 1E-50 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__XHFO_L_P_old_0 1E-50 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__XCaCO3_0 1E-50 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__XACP_0 1E-50 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__XSTR_0 1E-50 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__XVivi_0 1E-50 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__H_0 83626 83626 83626 83626 83626 83626;
+set Sumo__Plant__GranularSBR__GCO2_0 2.491 2.491 2.491 2.491 2.491 2.491;
+set Sumo__Plant__GranularSBR__GCH4_0 1E-50 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__GH2_0 1E-50 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__GO2_0 18.5 18.5 18.5 18.5 18.5 18.5;
+set Sumo__Plant__GranularSBR__GNH3_0 1E-50 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__GN2_0 78.09 78.09 78.09 78.09 78.09 78.09;
+# parameters Setpoints
+set Sumo__Plant__GranularSBR__GCO2 2.491 2.491 2.491 2.491 2.491 2.491;
+set Sumo__Plant__GranularSBR__GCH4 1E-40 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__GH2 1E-40 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__GO2 18.5 18.5 18.5 18.5 18.5 18.5;
+set Sumo__Plant__GranularSBR__GNH3 1E-40 1E-40 1E-40 1E-40 1E-40 1E-40;
+set Sumo__Plant__GranularSBR__GN2 78.09 78.09 78.09 78.09 78.09 78.09;
+# parameters Displacement switch parameters
+# inputsetup Table0
+loadtsv "GranularSBR_SO2_Table.tsv" -cyclestart 0 -cycletime 20941200 ;
+# id#2: Influent
+# parameters Influent components
+set Sumo__Plant__Influent__TCOD 100;set Sumo__Plant__Influent__TKN 50;set Sumo__Plant__Influent__TP 1.5;
+# parameters pH and alkalinity
+# parameters Temperature
+# parameters Influent fractions
+set Sumo__Plant__Influent__frSCCOD 1;
+set Sumo__Plant__Influent__frSCOD 1;
+set Sumo__Plant__Influent__frVFA 1;
+set Sumo__Plant__Influent__frSU 0;
+set Sumo__Plant__Influent__frXU 0;
+set Sumo__Plant__Influent__frXOHO 0;
+set Sumo__Plant__Influent__frXE 0;
+set Sumo__Plant__Influent__frCU 0;
+set Sumo__Plant__Influent__frSNHx 1;
+# parameters Ionic components
+# parameters Other influent constituents (usually zero)
+# parameters Mixing - precipitation parameters
+# inputsetup Table1
+loadtsv "Influent_Q_Table1.tsv" -cyclestart 0 -cycletime 20941200 ;
+# id#4: Effluent
+# id#6: Sludge
+#model options
