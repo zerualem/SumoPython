@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: sumo
+Version: 0.1
+Summary: Sumo Python interface.
+Home-page: http://dynamita.com
+Author: Robert Kovacs
+Author-email: robert@dynamita.com
+License: Proprietary
+Description-Content-Type: UNKNOWN
+Description: """
+        Sumo support package allowing easy usage of Sumo from Python.
+        """
+        
+Keywords: Dynamita Sumo simulation
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Utilities
+Classifier: License :: Proprietary

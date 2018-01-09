@@ -1,0 +1,8 @@
+README
+setup.py
+dynamita/__init__.py
+dynamita/sumo.py
+sumo.egg-info/PKG-INFO
+sumo.egg-info/SOURCES.txt
+sumo.egg-info/dependency_links.txt
+sumo.egg-info/top_level.txt
